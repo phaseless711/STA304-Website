@@ -2,8 +2,7 @@
 
 An original, modular R Shiny research website for the Null Hypothesis group's STA304H5 project. This editable build integrates both teammate figures and uses the group's actual survey responses.
 
-**Public Posit Connect Cloud URL:** not deployed yet. Replace this sentence with the verified public URL after E completes deployment.
-
+**Public Posit Connect Cloud URL:** https://01a20eeb-55f5-084c-dbca-79693b2ad46b.share.connect.posit.cloud/
 ## Run locally
 
 1. Extract this folder, keeping `app.R`, `R/`, `www/`, and `data/` together.
@@ -60,6 +59,6 @@ According to the group's TA correspondence, **Primary AI tool** is an acceptable
 5. Wait for the build, open the public address in a fresh/private browser, and test the filters, both plot pages and the empty-result case.
 6. Put the verified public URL at the top of this README and submit the URL as instructed.
 
-This build has not been deployed to Posit. A locally working app is only the starting point for deployment.
+This application has been successfully deployed to Posit Connect Cloud.
 
 Official references: [Shiny modules](https://shiny.posit.co/r/articles/improve/modules/), [Shiny for R deployment](https://docs.posit.co/connect-cloud/how-to/r/shiny-r.html), [dependency manifests](https://docs.posit.co/connect-cloud/how-to/r/dependencies.html). Assignment source: supplied `5-STA304-Website-Instructions-2026.pdf`.
