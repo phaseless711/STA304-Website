@@ -1,0 +1,11 @@
+完整网站项目（文字修订版）
+
+打开方法：
+1. 解压整个压缩包，保留 app.R、R、data、www 等文件的目录结构。
+2. 双击 STA304-Website.Rproj，用RStudio打开项目。
+3. 如缺少R包，在Console运行 source("install_packages.R")。
+4. 打开项目内的 app.R，点击 Run App。
+
+不要单独从微信运行 app.R，否则会找不到 R/config.R 等文件。
+本版已更新标题、导航及图表说明，保留图表控件、公共筛选、D的统计表和大号p值。
+尚未公开部署。上线后请把真实Posit Connect Cloud网址填入README.md；以后改代码或依赖时，在完整项目中运行 source("make_manifest.R")。
